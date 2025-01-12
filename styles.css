@@ -1,0 +1,369 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(90deg, #2a2a2a, #000);
+    color: #fff;
+}
+
+header img {
+    max-width: 100px; /* Adjusted for the icon size */
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 5px auto;
+}
+
+header .slogan {
+    font-size: 1.1em;
+    font-weight: 300;
+    color: #ccc; /* Lighter color for subtle emphasis */
+    margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: #000;
+    padding: 15px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #444;
+}
+
+nav a.active {
+    background-color: #444;
+    color: #fff;
+}
+
+/* Reset the default list styling */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Remove bullets */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-between; /* Adjust space between items if necessary */
+}
+
+/* Align the list items horizontally */
+nav ul li {
+    position: relative; /* Required for dropdown positioning */
+    margin: 0 15px; /* Add spacing between items */
+}
+
+/* Style the links (main titles) */
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white; /* Main menu links are white */
+}
+
+/* Hover effect for main menu links */
+nav ul li a:hover {
+    background-color: #f4f4f4;
+    color: #000; /* Change text color to black on hover */
+}
+
+/* Dropdown styling */
+nav .dropdown {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+/* Show dropdown on hover */
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+/* Style the links inside the dropdown */
+nav .dropdown a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black; /* Set dropdown links to black */
+}
+
+/* Hover effect for dropdown links */
+nav .dropdown a:hover {
+    background-color: #f4f4f4;
+    color: #000; /* Ensure text color stays black when hovering */
+}
+
+
+
+main {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 60px;
+
+}
+
+.about-us {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Whitepaper Page Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(90deg, #2a2a2a, #000);
+    color: #fff;
+}
+
+header img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+header p.slogan {
+    font-size: 1.2em;
+    color: #ccc;
+    font-weight: 300;
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+section h3 {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #444;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #444;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background: #000;
+    color: #fff;
+}
+
+
+
+/* Timeline Container */
+.timeline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    width: 100%; /* Ensure the container spans the entire width of the page */
+    overflow: hidden; /* Prevent horizontal scroll */
+}
+
+.timeline {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%; /* Ensure the timeline stretches to fit the container */
+    justify-content: space-evenly; /* Space items evenly within the container */
+}
+
+.timeline-item {
+    position: relative;
+    width: 300px; /* Adjusted width for each item */
+    margin: 0 30px; /* Increased margin between items */
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.timeline-item:hover {
+    transform: scale(1.05);
+}
+
+.timeline-item .timeline-content {
+    padding: 20px;
+}
+
+.timeline-item h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.timeline-item p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Connectors between the timeline items */
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ccc;
+    z-index: -1;
+}
+
+/* Fixing the first item's line - should not overlap text */
+.timeline-item:first-child::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;  /* Move the connector line to the right side of the box */
+    width: 20px; /* Length of the connector line */
+    height: 2px;
+    background-color: #000;
+}
+
+
+/* Responsive adjustment */
+@media (max-width: 1024px) {
+    .timeline-item {
+        width: 250px; /* Reduce the width on smaller screens */
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .timeline-container {
+        flex-direction: column; /* Stack items vertically on mobile */
+    }
+
+    .timeline {
+        flex-direction: column;
+        justify-content: center; /* Center items vertically */
+    }
+
+    .timeline-item {
+        width: 80%; /* Reduce width even more on mobile */
+        margin: 10px auto;
+    }
+}
+
+
+
+
+
+.section h2 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.section-founder {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background: #000;
+    color: #fff;
+    margin-top: 60px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
