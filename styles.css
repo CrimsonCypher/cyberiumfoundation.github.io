@@ -308,23 +308,7 @@ footer {
 }
 
 
-/* Responsive adjustment */
-@media (max-width: 1024px) {
-    .timeline-item {
-        width: 250px; /* Reduce the width on smaller screens */
-        margin: 0 15px;
-    }
-}
 
-@media (max-width: 768px) {
-    .timeline-container {
-        flex-direction: column; /* Stack items vertically on mobile */
-    }
-
-    .timeline {
-        flex-direction: column;
-        justify-content: center; /* Center items vertically */
-    }
 
     .timeline-item {
         width: 80%; /* Reduce width even more on mobile */
