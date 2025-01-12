@@ -374,3 +374,47 @@ footer p {
     margin: 5px 0;
     font-size: 0.9em;
 }
+
+
+
+/* Media Query for Tablets and Mobile (max-width 768px) */
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.25em;
+    }
+}
+
+/* Media Query for Mobile Phones (max-width 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    header {
+        padding: 10px;
+    }
+    h1, h2, h3 {
+        font-size: 1.2em;
+    }
+    nav ul {
+        padding-left: 0;
+    }
+    footer {
+        font-size: 12px;
+    }
+    .section {
+        padding: 20px 10px;
+    }
+}
